@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    margin: auto;
+    overflow: hidden;
+
+}
+
+
+div, header, footer, aside, .upper_half_squre , .middle_half_squer {
+    float: left;
+    width: 100%;
+    background-color: rgb(184, 184, 184);
+    border: 1px solid black;
+    text-align: center;
+
+
+}
+
+
+           @media screen and (max-width:768px){
+                main{
+                    width: 480px;
+                   }
+                header{
+                    height: 75px;
+                    line-height: 75px;
+
+                }
+                aside{
+                    height: 150px;
+                    border-top: none ;
+                    line-height: 150px;
+
+                }
+                footer{
+                    height: 80px;
+                    border-top: none ;
+                    line-height: 80px;
+                }
+                .upper_half_squre{
+                    height: 125px;
+                    border-top: none ;
+                    line-height: 125px;
+
+                }
+                .middle_half_squer{
+                    height: 250px;
+                    width: 240px;
+                    border-top: none ;
+                    line-height: 250px;
+
+                }
+
+                .middle_half_squer:nth-of-type(even){
+                    border-left: none ;
+            
+                }
+
+            }
+
+ @media screen and (min-width:768px){
+    main{
+        width: 960px;
+           }
+           header{
+               height: 100px;
+               line-height: 100px;
+
+                }
+                aside{
+                    height: 600px;
+                    width: 200px;
+                    line-height: 600px;
+                    border-top: none ;
+                }
+
+                footer{
+                    height: 150px;
+                    width: 760px;
+                    border-top: none ;
+                    border-left: none;
+                    line-height: 150px;
+
+                }
+                .upper_half_squre{
+                    height: 200px;
+                    width: 380px;
+                    line-height: 200px;
+
+                }
+                .middle_half_squer{
+                    height: 250px;
+                    width: 190px;
+                    line-height: 250px;
+
+                }
+
+                div{
+                    border-top: none ;
+                    border-left: none;
+                }
+
+
+            }
+
+     
